@@ -1,90 +1,95 @@
-# Xcode
-#
-# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
-
-## User settings
-xcuserdata/
-
-## compatibility with Xcode 8 and earlier (ignoring not required starting Xcode 9)
-*.xcscmblueprint
-*.xccheckout
-
-## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
-build/
-DerivedData/
-*.moved-aside
-*.pbxuser
-!default.pbxuser
-*.mode1v3
-!default.mode1v3
-*.mode2v3
-!default.mode2v3
-*.perspectivev3
-!default.perspectivev3
-
-## Obj-C/Swift specific
-*.hmap
-
-## App packaging
-*.ipa
-*.dSYM.zip
+.DS_Store
+UDK
+Binaries
+build
+DerivedData
+xcshareddata
+xcuserdata
+project.xcworkspace
 *.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
-
-# Swift Package Manager
-#
-# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
-# Packages/
-# Package.pins
-# Package.resolved
-# *.xcodeproj
-#
-# Xcode automatically generates this directory with a .xcworkspacedata file and xcuserdata
-# hence it is not needed unless you have added a package configuration file to your project
-# .swiftpm
-
-.build/
-
-# CocoaPods
-#
-# We recommend against adding the Pods directory to your .gitignore. However
-# you should judge for yourself, the pros and cons are mentioned at:
-# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
-#
-# Pods/
-#
-# Add this line if you want to avoid checking in source code from the Xcode workspace
-# *.xcworkspace
-
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build/
-
-# Accio dependency management
-Dependencies/
-.accio/
-
-# fastlane
-#
-# It is recommended to not store the screenshots in the git repo.
-# Instead, use fastlane to re-generate the screenshots whenever they are needed.
-# For more information about the recommended setup visit:
-# https://docs.fastlane.tools/best-practices/source-control/#source-control
-
-fastlane/report.xml
-fastlane/Preview.html
-fastlane/screenshots/**/*.png
-fastlane/test_output
-
-# Code Injection
-#
-# After new code Injection tools there's a generated folder /iOSInjectionProject
-# https://github.com/johnno1962/injectionforxcode
-
-iOSInjectionProject/
+*.linux
+.vscode
+.idea
+unc-srclist.txt
+unc-UEFI.cfg
+uncrustify
+uncrustify.diff
+Uncrustify-repo
+*.o
+*.o.tmp
+*.d
+*.exe
+*.gcda
+*.gcno
+FUZZDICT
+COVERAGE*
+*.sydr*
+sydr-fuzz.toml
+sydr-fuzz-out
+fuzz-*.log
+crash-*
+oom-*
+slow-unit-*
+*.log
+*.aux
+*.out
+*.synctex.gz
+*.toc
+out.bin
+prelinkedkernel.unpack
+.gdb_history
+*.dmg
+*.chunklist
+*.pyc
+*.id0
+*.id1
+*.id2
+*.nam
+*.til
+*.aml
+*.kext
+Debug/QemuRun
+Doxy
+BootKernelExtensions.kc
+Legacy/BinDrivers/X64
+Legacy/BinDrivers/IA32
+Legacy/BootLoader/bin
+Legacy/BootSector/bin
+Utilities/AppleEfiSignTool/AppleEfiSignTool
+Utilities/ACPIe/ACPIe
+Utilities/acdtinfo/acdtinfo
+Utilities/BaseTools/bin.*
+Utilities/disklabel/disklabel
+Utilities/EfiResTool/EfiResTool
+Utilities/ext4read/ext4read
+Utilities/macserial/macserial
+Utilities/icnspack/icnspack
+Utilities/ocpasswordgen/ocpasswordgen
+Utilities/ocvalidate/ocvalidate
+Utilities/ocvalidate/*.plist
+Utilities/LogoutHook/nvramdump
+Utilities/RsaTool/libressl
+Utilities/RsaTool/RsaTool
+Utilities/TestBmf/Bmf
+Utilities/TestCpuFrequency/CpuFrequency
+Utilities/TestDiskImage/DiskImage
+Utilities/TestHelloWorld/HelloWorld
+Utilities/TestImg4/Img4
+Utilities/TestMp3/Mp3
+Utilities/TestMp3/test.bin
+Utilities/TestKernelCollection2/KernelCollection2
+Utilities/TestKextInject/KextInject
+Utilities/TestKextInject/Result.xml
+Utilities/TestMacho/Macho
+Utilities/TestRsaPreprocess/RsaPreprocess
+Utilities/TestSmbios/Smbios
+Utilities/TestPeCoff/PeCoff
+Utilities/TestProcessKernel/EFI/*
+Utilities/TestProcessKernel/OC/*
+Utilities/TestProcessKernel/ProcessKernel
+Utilities/TestNtfsDxe/TestNtfsDxe
+Utilities/TestExt4Dxe/TestExt4Dxe
+Utilities/TestFatDxe/TestFatDxe
+Utilities/LegacyBoot/ROOT
+Utilities/LegacyBoot/OpenCore.raw
+Utilities/LegacyBoot/boot
